@@ -4,9 +4,9 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
-	<title>Emporiotech</title>
+	<title>EmporioTech</title>
 </head>
-<body>
+<body class="main">
 	<div class="principal">
 		<div class="header">
 			<div class="logo">
@@ -29,7 +29,7 @@
 			<li><a href="#">Productos</a>
 				<ul>
 					<li><a href="Perifericos.html">Periféricos</a></li>
-					<li><a href="">Marcas Asociadas ></a>
+					<li><a href="#">Marcas Asociadas ></a>
 						<ul>
 							<li><a href="Apple.html">Apple</a></li>
 							<li><a href="MSI.html">MSI</a></li>
@@ -40,26 +40,28 @@
 			<li><a href="Instalaciones.html">Instalaciones</a></li>
 			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
-			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Clientes.html">Area de Clientes</a></li>
 		</ul></div>
 		<div class="contenido">
-			<div class="centro">
-				<p>
-				<h2  class="intro">SERVICIO DE DESARROLLO DE PROYECTOS.</h2>
-				<hr color="#DCDBDE">
-				<br>
-				<h3 class="desc">Este es un servicio profesional que ofrecemos consiste en que les aportamos nuestros super computadores para que los alquilen para poder desarrollar sus proyectos más complicados en menor tiempo y con mayor efectividad, adémas les asignamos un ingeniero para que los ayude más a fondo con sus proyectos personales.</h3>
-				<br>
-				<h2  class="intro">¿Con qué equipos contamos?</h2>
-				<h3 class="desc">Nuestras cuatro mejores instaciones cuentan con:
-				 <ol class="list">
-					<li>93 petaflops con 10 milliones de cores.</li>
-					<li>48.6 petaflops con 2.4 milliones de cores.</li>
-					<li>63.8 petaflops con 3.5 milliones de cores.</li>
-				 </ol>	
-				</h3>
-				</p>
-				<p align="right" class="pic"><img src="IMG/supercom.jpg" class="piccon"><h2 class="off"></h2></img></p>
+			<div class="centro-login">
+				<form method="post" class="formulario-login" onsubmit="return validar()">
+					<h1>LOGIN</h1>
+					<div class="contenedor">
+						<div class="input-cont">
+							<img class="icon" src="mail.png">
+							<input type="text" name="email" placeholder="Correo Electronico">
+						</div>
+					<div class="input-cont">
+						<img class="icon" src="password.png">
+						<input type="password" name="password" placeholder="Contrasena">
+					</div>
+						<input type="submit" value="Login" class="button">
+						<br>
+						<p>Al registrar acepta los usos y condiciones</p>
+						<br>
+						<P>No tiene cuenta? <a class="link" href="registro.html">Registro</a> </P>
+					</div>
+	</form>
 			</div>
 			<div class="lateral">
 				<h2  class="intro">AGENDA UNA CITA CON NOSOTROS.</h2>
