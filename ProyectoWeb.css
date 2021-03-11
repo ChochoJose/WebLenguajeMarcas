@@ -240,16 +240,6 @@ ul{
 	width: 220px;
 }
 
-
-
-@media (max-width: 768px){
-
-}
-
-
-@media (max-width: 400px){
-	
-}
 .centro-login{
 	display: flex;
 	justify-content: center;
@@ -318,6 +308,66 @@ p{
 .link:hover{
 	color: cadetblue;
 }
+
+@media (max-width: 900px){
+	img#LogoIMG{
+		height: 60%;
+		width: 120px;
+	}
+	.nombre{
+		height: 50%;
+	}
+
+	.nombre h1{
+		height: 100%;
+		padding: calc(100% -10px);
+		margin: 0;
+		font-size: 4em;
+	}
+	.cuerpo{
+		flex-direction: column;
+	}
+	.menu{
+		width:200px; 
+		top: 0;
+	}
+	.menu{
+		width: 100%;
+	}
+	.nav{
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+		width: 100%;
+	}
+
+	.nav li{
+		margin-right: 10px;
+	}
+
+	.nav li a{
+		font-size: 20px;
+	}
+
+	.contenido{
+		flex-direction: column;
+	}
+
+	.centro{
+		width: 90%;
+		padding: 20px;
+	}
+	.nav li ul{
+		left: calc(100% - 700px);
+   		top:40px;
+	}
+}
+
+
+@media (max-width: 400px){
+	
+}
+
 @media (min-width: 768px){
 
 	.formulario-login{
