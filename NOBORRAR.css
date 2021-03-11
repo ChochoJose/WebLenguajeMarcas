@@ -29,7 +29,7 @@ body {
 }
 .principal{
 	height: 1000px;
-	width: 100%;
+	width: 1200px;
 	margin: 5px auto;
 	padding: 0.5em;
 }
@@ -39,7 +39,8 @@ body {
 	margin: 1em 0;
 }
 .menu{
-	width: 300px;
+	height: 10%;
+	border-radius: 15px;
 	margin: 1em;
 	display: flex;
 	align-items: center;
@@ -115,17 +116,13 @@ img#LogoIMG{
 	font-family: "Airstrike";
 	font-size: 100px;
 	color: #DCDBDE;
-}
-ul{
+}ul{
     list-style: none;
-
+ 
 }
-
 .nav li a{
-	margin-bottom: 10px;
-	border-radius: 10px;
     text-align: center;
-    background-color: #900C3F;
+    background-color: #0F086E;
     color:#DCDBDE;
     text-decoration: none;
     padding: 10px 15px;
@@ -136,17 +133,14 @@ ul{
 .nav li a:hover{
     background-color: #564AED;
 }
-.nav{
-	position:relative;
+.nav > li{
+    float: left;
+    
 }
 .nav li ul{
     display:none;
-    position: absolute;
-    left: calc(100% + 4px);
-    top: 10px;
+    position:absolute;
     min-width: 140px;
-    background-color: #0F086E;
-    border-radius: 10px;
 }
 .nav li:hover > ul{
     display: block;
