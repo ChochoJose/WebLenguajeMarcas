@@ -228,6 +228,8 @@ ul{
 }
 .h1login{
 	font-family: "Airstrike";
+	color: white;
+
 	font-size: 55px;
 }
 .formulario{
@@ -255,6 +257,10 @@ ul{
 	margin: 1em;
 	color:#DCDBDE;
 	padding: 10px;
+}
+.titulo-login{
+	background-image: url(IMG/gifFondo.gif);
+	border-radius: 10px 10px 0px 0px;
 }
 .contenedor-login{
 	width: 95%;
@@ -285,17 +291,20 @@ h1{
 }
 .input-cont{
 	margin-bottom: 15px;
+	margin-left: 24px;
+	width: 87%;
 	border: 1px solid #AAA;
-	border-radius: 5px;
+	border-radius: 8px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: none;
+	border: dotted;
 	font-family: "Monofonto";	
 }
 .button{
 	border: none;
-	width: 100%;
+	margin-left: 10px;
+	width: 95%;
 	font-size: 20px;
 	color: white;
 	background: #1A2537;
