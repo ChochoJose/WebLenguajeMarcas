@@ -327,12 +327,24 @@ p{
 .fotosGal{
 	width: 600px;
 	height: 320px;
-	border-style: outset;
-	border: 14px;
+	border-style: inset;
+	border: 10px;
+}
+.divgalerias{
+	width: 670px;
+	height: 350px;
+	margin-left: 55px; 
+	background-color: #0A1B2A;
+	border-style:outset;
+	border-radius: 14px; 
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .proyectos-titulo{
 	background:#A4A4A4;
 	border-radius: 10px;
+	border-style: inset;
 	color: white;
 }
 .pro{

@@ -10,6 +10,6 @@ function carrusel(){
 	if (inicio > x.length) {
 		inicio = 1;
 	}
-	x[inicio - 1].style.display = "block";
-	setTimeout(carrusel,3000);
+	x[inicio - 1].style.display = "flex";
+	setTimeout(carrusel,1800);
 }
