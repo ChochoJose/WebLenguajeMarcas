@@ -269,6 +269,7 @@ ul{
 	width: 500px;
 	margin: auto;
 	border-radius: 10px;
+	font-family: "Monofonto";
 }
 h1{
 	padding-top: 20px;
@@ -289,7 +290,8 @@ h1{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	border: none;	
+	border: none;
+	font-family: "Monofonto";	
 }
 .button{
 	border: none;
@@ -315,7 +317,19 @@ p{
 .link:hover{
 	color: cadetblue;
 }
-
+.contenedor-galeria{
+	width: 600px;
+	height: 320px;
+	overflow: hidden;
+	margin: 50px auto;
+	border-radius: 10px;
+}
+.fotosGal{
+	width: 600px;
+	height: 320px;
+	border-style: outset;
+	border: 14px;
+}
 @media (max-width: 900px){
 	img#LogoIMG{
 		height: 60%;
