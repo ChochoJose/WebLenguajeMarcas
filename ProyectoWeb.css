@@ -11,7 +11,7 @@
 	padding: 0px;
 }
 body {
-	background-image: url(IMG/FondoWeb.jpg);
+	background-image: url(IMG/fondorojo2.jpg);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -69,7 +69,7 @@ body {
 .centro{
 	height: 93%;
 	width: 70%;
-	background-color: #0F086E;
+	background-color: #0B3861;
 	border-radius: 15px;
 	margin: 1em;
 	color:#DCDBDE;
@@ -78,7 +78,7 @@ body {
 .lateral{
 	height: 93%;
 	width: 20%;
-	background-color: #0F086E;
+	background-color: #0B3861;
 	color:#DCDBDE;
 	border-radius: 15px;
 	margin: 1em;
@@ -104,7 +104,7 @@ img#LogoIMG{
 	align-content: center;
 	height: 80%;
 	width: 70%;
-	background-color: #0F086E;
+	background-color: #0B3861;
 	float: right;
 	border-radius: 15px;
 	margin: 1em;
@@ -125,7 +125,7 @@ ul{
 	margin-bottom: 10px;
 	border-radius: 10px;
     text-align: center;
-    background-color: #900C3F;
+    background-color: #0B3861;
     color:#DCDBDE;
     text-decoration: none;
     padding: 10px 15px;
@@ -145,7 +145,7 @@ ul{
     left: calc(100% + 4px);
     top: 10px;
     min-width: 140px;
-    background-color: #0F086E;
+    background-color: #0B3861;
     border-radius: 10px;
 }
 .nav li:hover > ul{
@@ -226,6 +226,10 @@ ul{
 .ub{
 	font-size: 17px;
 }
+.h1login{
+	font-family: "Airstrike";
+	font-size: 55px;
+}
 .formulario{
 	align-content: center;
 	border-radius: 7px;
@@ -246,7 +250,7 @@ ul{
 	align-items: center;
 	height: 93%;
 	width: 70%;
-	background-color: #0F086E;
+	background-color: #0B3861;
 	border-radius: 15px;
 	margin: 1em;
 	color:#DCDBDE;
@@ -255,6 +259,8 @@ ul{
 .contenedor-login{
 	width: 95%;
 	padding: 15px;
+	font-family: "Airstrike";
+	color: #848484;
 
 }
 .formulario-login{
@@ -294,6 +300,7 @@ h1{
 	padding: 15px 20px;
 	border-radius: 5px;
 	cursor: pointer;
+	font-family: "Airstrike";
 }
 .button:hover{
 	background: cadetblue;
