@@ -48,7 +48,7 @@ body {
 }
 .contenido{
 	height: 55%;
-	background-color: #DCDBDE;
+	background-color: #A4A4A4;
 	border-radius: 15px;
 	margin: 1em 10px;
 	padding: 2px;
@@ -329,6 +329,14 @@ p{
 	height: 320px;
 	border-style: outset;
 	border: 14px;
+}
+.proyectos-titulo{
+	background:#A4A4A4;
+	border-radius: 10px;
+	color: white;
+}
+.pro{
+	color: white;
 }
 @media (max-width: 900px){
 	img#LogoIMG{
