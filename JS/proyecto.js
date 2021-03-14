@@ -21,6 +21,9 @@ function desplegar(){
 	var menu = document.getElementById("menu");
 	//classlist devuelve el nombre de la clase y con toggle añado o quito  a la clase menu el estilo desplegado
 	menu.classList.toggle("desplegado");
+
+	var gal = document.getElementById("galeria");
+	gal.classList.toggle("esconder");
 }
 
 //creamos el script para validar el usuario con login

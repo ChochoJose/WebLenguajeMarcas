@@ -31,8 +31,8 @@ body {
 
 .cuerpo{
 	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	justify-content: center;
+	align-items: flex-start;
 	width: 100%;
 }
 .principal{
@@ -418,8 +418,64 @@ p{
 	float: right;
 }
 
+h3 ol li{
+	margin-top: 15px;
+}
+h3, h2{
+	margin-top: 15px;
+}
 
-@media (max-width: 1050px){
+.galeria{
+	width: 720px;
+	margin: 50px auto 0;
+}
+
+.miniatura{
+	/*Estilizar la miniatura, es un boton para convertirlo a bloque se pone display*/
+	/*Usamos al elemento como máscara por eso le damos altura y anchura*/
+	display: block;
+	width: 200px;
+	height: 200px;
+	margin: 20px;
+	/*Para mover el parrafo necesito que esté en posición relativa*/
+	position: relative;
+	overflow: hidden;/*para que no se vea*/
+	float: left;
+}
+.miniatura img{
+	/*hay que convertirlo a bloque se pone display: block*/
+	display: block;
+	width: 100%;
+}
+.miniatura p{
+	padding: 0 10px;
+	font-family: "Monofonto";
+	src: url(FONTS/monofonto.ttf);
+	background-color: rgba(255,255,255,0.9);
+	color: #0B3861;
+	font-weight: bolder;
+	height: 100%; /*estaríamos dejando el alto fijo no fluiría*/
+	text-align:center;
+	text-decoration: none; 
+	padding-top: calc(50% - 8px); /*Calc siempre toma como referencia al padre*/
+    box-sizing: border-box;
+    position: absolute; /*ya no reconoce a su padre a no ser que se ponga width*/
+    width: 100%;
+    transition: 0.4s;/*Si hay cambio de propiedades el se toma el tiempo para realizarlo*/
+    top: 100%;/*Se aleja todo el alto de su padre por eso se queda en la misma posición*/
+}
+
+.miniatura:hover p{ /*Seleccionamos el parrafo dentro de la miniatura siempre que pasemos el ratón*/
+	top: 0;
+}
+
+.esconder{
+	display: none;
+}
+@media screen and (max-width: 900px){
+	.galeria{
+		width: 480px;
+	}
 	.principal{
 		width: 1024px;
 		padding-right: 0;
@@ -495,9 +551,6 @@ p{
 		font-size: 20px;
 	}
 
-	.contenido{
-		width: 60%;
-	}
 	.contenido-registro{
 		margin-right: 20px;
 	}
@@ -526,6 +579,7 @@ p{
 }
 
 
-@media (max-width: 400px){
-	
-}
+@media screen and (max-width: 400px){
+	.galeria{
+		width: 240px;
+	}
