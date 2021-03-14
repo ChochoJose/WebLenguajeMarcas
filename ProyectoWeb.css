@@ -359,7 +359,42 @@ p{
 .pro{
 	color: white;
 }
+
+
+.abrir{
+	display: none;
+	width: 30px;
+	padding: 5px 5px 0;
+	margin: 20px;
+	border-radius: 5px;
+	border: 1px solid #24f;
+	color: #fff;
+}
+
+.linea{
+	display: block;
+	height: 5px;
+	background-color: #fff;
+	margin-bottom: 5px;
+}
+
+.cerrar{
+	display: none;
+	text-decoration: none;
+	color: #fff;
+	font-size: 2.5em;
+	padding: 10px;
+	float: right;
+}
+
+
 @media (max-width: 900px){
+	.abrir{
+		display: block;
+	}
+	.cerrar{
+		display: inline-block;
+	}
 	img#LogoIMG{
 		height: 60%;
 		width: 120px;
@@ -378,11 +413,17 @@ p{
 		flex-direction: column;
 	}
 	.menu{
+		height: 100vh;
 		width:200px; 
-		top: 0;
-	}
-	.menu{
+		position: fixed;
+		top: 100vh;
+		left: 0;
+		transition: 0.6s;
 		width: 100%;
+	}
+	.desplegado{
+		top: 0;
+		background-color: #0A1B2A; 
 	}
 	.nav{
 		display: flex;

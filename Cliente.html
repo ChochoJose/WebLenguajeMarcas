@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
 	<title>EmporioTech</title>
 </head>
 <body class="main">
@@ -17,7 +18,13 @@
 			</div>
 		</div>
 		<div class="cuerpo">
-		<div class="menu">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu" id="menu">
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
 			<ul class="nav">
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="#">Servicios</a>
