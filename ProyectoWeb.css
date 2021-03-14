@@ -56,6 +56,7 @@ body {
 }
 .contenido{
 	height: 55%;
+	width: 95%;
 	background-color: #A4A4A4;
 	border-radius: 15px;
 	margin: 1em 10px;
@@ -63,6 +64,24 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
+}
+.contenido-registro{
+	margin-right: 300px;
+	background-color: #A4A4A4;
+	border-radius: 15px;
+}
+
+.lateral-direccion{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.lateral-direccion p{
+	margin-left: 20px;
+}
+.desc ul li{
+	margin-bottom: 15px;
 }
 .footer{
 	font-family: "Airstrike";
@@ -76,7 +95,7 @@ body {
 }
 .centro{
 	height: 93%;
-	width: 70%;
+	width: 95%;
 	background-color: #0B3861;
 	border-radius: 15px;
 	margin: 1em;
@@ -85,12 +104,18 @@ body {
 }
 .lateral{
 	height: 93%;
-	width: 20%;
 	background-color: #0B3861;
 	color:#DCDBDE;
 	border-radius: 15px;
 	margin: 1em;
 	padding: 8px;
+	width: 95%;
+}
+form{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
 }
 .logo{
 	height: 80%;
@@ -259,19 +284,18 @@ ul{
 	justify-content: center;
 	align-items: center;
 	height: 93%;
-	width: 70%;
-	background-color: #0B3861;
+	width: 95%;
 	border-radius: 15px;
 	margin: 1em;
 	color:#DCDBDE;
-	padding: 10px;
 }
 .titulo-login{
 	background-image: url(IMG/gifFondo.gif);
 	border-radius: 10px 10px 0px 0px;
+	width: 100%;
 }
 .contenedor-login{
-	width: 95%;
+	width: 100%;
 	padding: 15px;
 	font-family: "Airstrike";
 	color: #848484;
@@ -279,9 +303,8 @@ ul{
 }
 .formulario-login{
 	background: white;
-	margin-top: 150px;
+	margin-top: auto;
 	width: 500px;
-	margin: auto;
 	border-radius: 10px;
 	font-family: "Monofonto";
 }
@@ -458,10 +481,15 @@ p{
 		flex-wrap: wrap;
 		width: 100%;
 	}
-
 	.nav li{
-		margin-right: 10px;
+	    margin-right: 10px;
 	}
+	.nav li ul{
+		position: relative;
+	    left: 0;
+	    top:0px;
+	}
+
 
 	.nav li a{
 		font-size: 20px;
@@ -469,16 +497,13 @@ p{
 
 	.contenido{
 		width: 60%;
-		flex-direction: column;
 	}
-
+	.contenido-registro{
+		margin-right: 20px;
+	}
 	.centro{
 		width: 90%;
 		padding: 20px;
-	}
-	.nav li ul{
-		left: calc(100% - 700px);
-   		top:40px;
 	}
 
 	.lateral{
@@ -496,19 +521,11 @@ p{
 	.fotosGal{
 		width: 450px;
 	}
+
+
 }
 
 
 @media (max-width: 400px){
 	
-}
-
-@media (min-width: 768px){
-
-	.formulario-login{
-		margin-top: 150px;
-		width: 500px;
-		margin: auto;
-		border-radius: 10px;
-	}
 }
