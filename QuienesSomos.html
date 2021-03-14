@@ -4,7 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
-	<script type="text/javascript" src="proyecto.js"></script>
+	<script type="text/javascript" src="JS/proyecto.js"></script>
 	<title>Emporiotech</title>
 </head>
 <body>
@@ -18,13 +18,25 @@
 			</div>
 		</div>
 		<div class="cuerpo">
-		<div class="menu">
+		
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+
+
+		<div class="menu" id="menu">
+
+
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
+			
 			<ul class="nav">
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="#">Servicios</a>
 				<ul>
-					<li><a href="consultoria.html">Consultoria</a></li>
-					<li><a href="disenoapp.html">Diseño de Aplicaciones</a></li>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de Sistemas</a></li>
 					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
 				</ul>
 			</li>
@@ -43,6 +55,7 @@
 			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
 			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
 		</ul></div>
 		<div class="contenido">
 			<div class="centro">
@@ -74,18 +87,26 @@
 				<h2  class="intro">PERSONAS IMPORTANTES DE LA COMPAÑÍA.</h2>
 				<hr color="#DCDBDE">
 				<br>
+			<div class="lateral-direccion">
+			<div>
 			<h2  class="intro">CEO</h2>
 			<h3 class="desc">Steve Jobs</h3>
+			</div>
 			<p align="center"><img src="IMG/stevej.jpg" class="staff"></p>
+			</div>
 			<br>
+			<div class="lateral-direccion">
+			<div>
 			<h2  class="intro">COO</h2>
 			<h3 class="desc">Bill Gates</h3>
+			</div>
 			<p align="center"><img src="IMG/billg.png" class="staff"></p>
+			</div>
 			</div>
 		</div>
 		</div>
 		<div class="footer">
-			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo. ©</p>
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
 		</div>
 	</div>
 </body>

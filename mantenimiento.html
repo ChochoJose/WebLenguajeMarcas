@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
 	<title>Emporiotech</title> 
 </head>
 <body>
@@ -17,13 +18,19 @@
 			</div>
 		</div>
 		<div class="cuerpo">
-		<div class="menu">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu" id="menu">
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
 			<ul class="nav">
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="#">Servicios</a>
 				<ul>
-					<li><a href="consultoria.html">Consultoria</a></li>
-					<li><a href="disenoapp.html">Diseño de Aplicaciones</a></li>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de sistemas</a></li>
 					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
 				</ul>
 			</li>
@@ -42,26 +49,26 @@
 			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
 			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
 		</ul></div>
 		<div class="contenido">
 			<div class="centro">
 				<p>
-				<h2  class="intro">SERVICIO DE COUNSULTORÍA INFORMÁTICA.</h2>
+				<h2  class="intro">SERVICIO DE MANTENIMIENTO INFORMÁTICO.</h2>
 				<hr color="#DCDBDE">
 				<br>
-				<h3 class="desc">Esto es un servicio profesional que ofrecemos a empresas, instituciones u otro tipo de organizaciones, y que tiene como finalidad someter a examen sus procesos e identificar problemas, irregularidades o incumplimientos de algún marco normativo o legal, o aspectos técnicos que se pueden mejorar.</h3>
+				<h3 class="desc">Esto es un servicio profesional que ofrecemos a empresas, instituciones u otro tipo de organizaciones los cuales requieren un mantenimiento tanto para sus productos como para sus proyectos.</h3>
 				<br>
 				<h2  class="intro">¿Cómo funciona?</h2>
-				<h3 class="desc">Trabajamos nuestras consultorías en 4 fases:
+				<h3 class="desc">Tenemos varios tipo de mantenimiento que varían en funcion de los servicios:
 				 <ol class="list">
-					<li>Diagnóstico.</li>
-					<li>Diseño de un plan de acción.</li>
-					<li>Implementación del plan.</li>
-					<li>Evaluación de resultados.</li>
+					<li>Ilimitado, el cual incluye: Responsable técnico asignado, supervisión semanal de alertas y seguridad IT: SSL/VPN.</li>
+					<li>Avanzado, el cual incluye: Gestión del puesto de trabajo, tareas preventivas automáticas, software de monitorización, y gestión seguridad perimetral.</li>
+					<li>Profesional, el cual incluye: Mano de obra sin límite, equipo de sustituciónRecuperación de datos y controlador de dominio</li>
 				 </ol>	
 				</h3>
 				</p>
-				<p align="right" class="pic"><img src="IMG/consulto.jpg" class="piccon"><h2 class="off"></h2></img></p>
+				<p align="right" class="pic"><img src="IMG/mantenimiento.jpg" class="piccon"><h2 class="off"></h2></img></p>
 			</div>
 			<div class="lateral">
 				<h2  class="intro">AGENDA UNA CITA CON NOSOTROS.</h2>
@@ -95,7 +102,7 @@
 		</div>
 		</div>
 		<div class="footer">
-			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo. ©</p>
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
 		</div>
 	</div>
 </body>

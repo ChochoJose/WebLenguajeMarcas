@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
 	<title>Emporiotech</title>
 </head>
 <body>
@@ -17,13 +18,21 @@
 			</div>
 		</div>
 		<div class="cuerpo">
-		<div class="menu">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu"id="menu">
+
+
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
 			<ul class="nav">
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="#">Servicios</a>
 				<ul>
-					<li><a href="consultoria.html">Consultoria</a></li>
-					<li><a href="disenoapp.html">Diseño de Aplicaciones</a></li>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de sistemas.</a></li>
 					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
 				</ul>
 			</li>
@@ -42,23 +51,24 @@
 			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
 			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
 		</ul></div>
 		<div class="contenido">
 			<div class="centro">
 				<p>
-				<h2  class="intro">SERVICIO DE DISEÑO DE APLICACIONES.</h2>
+				<h2  class="intro">SERVICIO DE GESTIÓN DE SISTEMAS.</h2>
 				<hr color="#DCDBDE">
 				<br>
-				<h3 class="desc">Esto es un servicio profesional que ofrecemos tanto a empresas e instituciones como a particulares, y que tiene el propósito de ayudar a crear un aplicación multiplataforma de cualquier ámbito que requiera el cliente, modelamos desde el dieño gráfico como la funcionalidad de la misma a su gusto, le damos un paquete de horas las cuales utilizaremos para la creación de la misma y de ahí se vera su costo.</h3>
+				<h3 class="desc">Esto es un servicio profesional que ofrecemos tanto a empresas e instituciones como a particulares que requieren de una gestión de sistemas.</h3>
 				<br>
 				<h2  class="intro">¿Cómo es el proceso?</h2>
-				<h3 class="desc">Trabajamos el diseño de apps de la siguiente manera:
+				<h3 class="desc">Trabajamos la gestión de sistemas de la siguiente manera:
 				 <ol class="list">
-					<li>Reunión inicial donde sabremos los parámetros que requiere el cliente.</li>
-					<li>Diseño de la base de datos.</li>
-					<li>Trabajo en todas las funcionalidades requeridas.</li>
-					<li>Reuniones con el cliente durante la fase gráfica.</li>
-					<li>Entrega del producto final.</li>
+					<li>Asignación de las licencias de software de la empresa.</li>
+					<li>Altas, bajas, redirecciones de cuentas de Mail.</li>
+					<li>Instalación de actualizaciones.</li>
+					<li>Administración y seguimiento de tu servidor.</li>
+					<li>Limpieza de virus.</li>
 				 </ol>	
 				</h3>
 				</p>
@@ -95,7 +105,7 @@
 		</div>
 		</div>
 		<div class="footer">
-			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo. ©</p>
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
 		</div>
 	</div>
 </body>

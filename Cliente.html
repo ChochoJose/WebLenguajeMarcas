@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="ProyectoWeb.css">
+	<script type="text/javascript" src="JS/proyecto.js"></script>
 	<title>EmporioTech</title>
 </head>
 <body class="main">
@@ -17,13 +18,19 @@
 			</div>
 		</div>
 		<div class="cuerpo">
-		<div class="menu">
+		<a href="#" class="abrir" onclick="desplegar()">
+			<span class="linea"></span>
+			<span class="linea"></span>
+			<span class="linea"></span>
+		</a>
+		<div class="menu" id="menu">
+			<a href="#" class="cerrar" onclick="desplegar()">x</a>
 			<ul class="nav">
 			<li><a href="index.html">Inicio</a></li>
 			<li><a href="#">Servicios</a>
 				<ul>
-					<li><a href="consultoria.html">Consultoria</a></li>
-					<li><a href="disenoapp.html">Diseño de Aplicaciones</a></li>
+					<li><a href="mantenimiento.html">Mantenimiento</a></li>
+					<li><a href="gestionSistemas.html">Gestión de sistemas</a></li>
 					<li><a href="desProyectos.html">Desarrollo de Proyectos</a></li>
 				</ul>
 			</li>
@@ -41,9 +48,10 @@
 			<li><a href="Instalaciones.html">Proyectos</a></li>
 			<li><a href="QuienesSomos.html">Quienes Somos</a></li>
 			<li><a href="Contacto.html">Contacto</a></li>
-			<li><a href="Clientes.html">Area de Clientes</a></li>
+			<li><a href="Cliente.html">Area de Clientes</a></li>
+			<li><a href="Noticias.html">Blog de Noticias</a></li>
 		</ul></div>
-		<div class="contenido">
+		<div class="contenido-registro">
 			<div class="centro-login">
 				<form method="post" class="formulario-login" onsubmit="return validar()">
 					<div class="titulo-login">
@@ -67,39 +75,11 @@
 					</div>
 	</form>
 			</div>
-			<div class="lateral">
-				<h2  class="intro">AGENDA UNA CITA CON NOSOTROS.</h2>
-				<hr color="#DCDBDE">
-				<br>
-			<form action="mailto:raul.rodriguez@universidadeuropea.es" method="POST" name="DAM">
-			<p>
-				<label for="nombre" name="nombre">Nombre:</label>
-				<input type="text" name="nombre" required=""r>
-			</p>
-			<br>
-			<p>
-				<label for="datetime">Fecha y Hora:</label>
-				<input type="datetime-local" name="datetime">
-			</p>
-			<br>
-				<label for="comentarios">Razón de tu cita:</label>
-			<br>	
-				<textarea name="comentarios" cols="27" rows="10"></textarea>
-			<br>
-			<p align="center">
-				<button type="submit" class="boton">Enviar</button>
-				<button type="reset" class="boton">Borrar</button>
-			</p>	
-			</form>	
-			<br>
-			<p align="center">
-			<img src="IMG/gracias.jpg" height="70px" width="140px">
-			</p>
-			</div>
+			
 		</div>
 		</div>
 		<div class="footer">
-			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo. ©</p>
+			<p align="center">Grupo Emporiotech® Derechos de autor pagina Web: Miguel Arroyo, Ignacio  López, Ana Simango. ©</p>
 		</div>
 	</div>
 </body>
