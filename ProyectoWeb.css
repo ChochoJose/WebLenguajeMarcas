@@ -21,12 +21,9 @@ body {
 	width: 100%;
 }
 .social{
-	float: right;
-	margin-right: 60px;
-	margin-top: 10px;
 	font-family: "Monofonto";
 	src: url(FONTS/monofonto.ttf);
-	
+	float: right;
 }
 
 .cuerpo{
