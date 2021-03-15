@@ -502,6 +502,12 @@ h3, h2{
 	display: none;
 }
 @media screen and (max-width: 900px){
+	.galimagenes{
+		display: block;
+	}
+	.info{
+		width: 90%;
+	}
 	.galeria{
 		width: 480px;
 	}
@@ -608,7 +614,10 @@ h3, h2{
 		width: 450px;
 		height: 100%;
 	}
-
+	
+	.lateral-qs{
+		margin-left: 10px;
+	}
 }
 
 
@@ -644,6 +653,7 @@ h3, h2{
 	.contenido{
 		padding-top: 20px; 
 	}
+
 	.centro{
 		margin: 0;
 		padding: 0;
@@ -675,6 +685,9 @@ h3, h2{
 		align-items: center;
 		flex-direction: column;
 	}
+	.contenido-index{
+		flex-direction: column;
+	}
 	.centro-login{
 		margin: 0;
 		height: 100%;
@@ -694,5 +707,8 @@ h3, h2{
 
 	.miniatura{
 		overflow: scroll;
+	}
+	.cuerpo{
+		margin-top: 90px;
 	}
 }
