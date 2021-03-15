@@ -376,8 +376,8 @@ p{
 	border: 10px;
 }
 .divgalerias{
-	width: 670px;
-	height: 350px;
+	width: 600px;
+	height: 320px;
 	margin-left: 55px; 
 	background-color: #0A1B2A;
 	border-style:outset;
@@ -580,16 +580,28 @@ h3, h2{
 	.fotosGal{
 		width: 450px;
 	}
-
+	.divgalerias{
+		width: 450px;
+		height: 100%;
+	}
 
 }
 
 
 @media screen and (max-width: 400px){
-	.intro,.desc{
-		font-size: 1em;
+	.intro,.desc ul li{
+		font-size: 0.8em;
+	}
+	.intro{
+		font-size: 1.8em;
 	}
 
+	.divgalerias{
+		width: 90%;
+	}
+	.contenedor-galeria{
+		width: 500px;
+	}
 	p img,img#LogoIMG{
 		height: 80%;
 		width: 90px;
@@ -654,5 +666,9 @@ h3, h2{
 		padding: 0;
 		padding-top: 15px;
 		font-size: 2.5em;
+	}
+
+	.miniatura{
+		overflow: scroll;
 	}
 }
