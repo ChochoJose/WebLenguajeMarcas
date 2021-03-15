@@ -1,7 +1,8 @@
 var inicio = 0;
 carrusel();
 desplegar();
-
+registro();
+validar();
 function carrusel(){
 	var i;
 	var x = document.getElementsByClassName("fotosGal");

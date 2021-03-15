@@ -59,7 +59,7 @@
 		</ul></div>
 		<div class="contenido-registro">
 			<div class="centro-login">
-				<form method="post" class="formulario-login" onsubmit="return validar()">
+				<form method="post" class="formulario-login" onsubmit="return registro()">
 					<div class="titulo-login">
 						<h1 class="h1login">REGISTRATE</h1>
 					</div>	
@@ -67,21 +67,21 @@
 					<div class="contenedor-login">
 						<div class="input-cont">
 							<img class="icon" src="ICONS/mail.png">
-							<input type="text" name="email" placeholder="Correo Electronico" class="input-login">
+							<input type="text" id="mail" placeholder="Correo Electronico" class="input-login">
 						</div>
 						<div class="input-cont">
 							<img class="icon" src="ICONS/usuario.png">
-							<input type="text" name="usuario" placeholder="Nombre de Usuario" class="input-login">
+							<input type="text" id="usuario" placeholder="Nombre de Usuario" class="input-login">
 						</div>
 					<div class="input-cont">
 						<img class="icon" src="ICONS/password.png">
-						<input type="password" name="password" placeholder="Contraseña" class="input-login">
+						<input type="password" id="password" placeholder="Contraseña" class="input-login">
 					</div>
 					<div class="input-cont">
 						<img class="icon" src="ICONS/password.png">
-						<input type="password" name="rpassword" placeholder="Repetir Contraseña" class="input-login">
+						<input type="password" id="rpassword" placeholder="Repetir Contraseña" class="input-login">
 					</div>
-						<input type="submit" value="Login" class="button">
+						<input type="submit" value="REGISTRO" class="button">
 						<br>
 						<p>Al registrar acepta los usos y condiciones</p>
 						<br>
