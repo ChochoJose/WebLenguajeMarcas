@@ -11,7 +11,8 @@
 	padding: 0px;
 }
 body {
-	background-image: url(IMG/fondorojo2.jpg);
+	background-image: url(IMG/fondo2blur.jpg) ;
+	size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: 100% 100%;
@@ -20,6 +21,8 @@ body {
 	justify-content: center;
 	width: 100%;
 }
+
+
 .header-index{
 	margin-top: 90px;
 	height: 100vh;
@@ -82,7 +85,6 @@ img#LogoIMG{
 	width: 95%;
 	padding: 2px;
 	display: flex;
-	align-items: center;
 	justify-content: center;
 	flex-direction: column;
 }
