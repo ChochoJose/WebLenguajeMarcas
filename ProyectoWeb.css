@@ -63,11 +63,18 @@ body {
 	justify-content: center;
 	flex-direction: column;
 }
-.contenido-registro{
-	width: calc(100% - 300px);
-	margin: 0 200px;
-	background-color: #A4A4A4;
+.conR{
 	border-radius: 15px;
+	width: 500px;
+	background-color: #A4A4A4;
+}
+.contenido-registro{
+	width: calc(100% - 250px);
+	border-radius: 15px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column; 
 }
 
 .lateral-direccion{
@@ -619,9 +626,13 @@ h3, h2{
 	.formulario{
 		border-style: none;
 	}
+	.conR{
+		width: 90%;
+		background-color: transparent;
+	}
 
 	.contenido-registro{
-		width: 90%;
+		width: 100%;
 		height: 500px;
 		display: flex;
 		justify-content: center;
